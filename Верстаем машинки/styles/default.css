@@ -1,0 +1,13 @@
+@import url('./styles.css');
+@import url('./modal.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 26px;
+    margin: 0 0 24px;
+}

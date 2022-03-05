@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/default.css">
+    <title>Модалка</title>
+</head>
+<body class="modal">
+<div class="modal-wrapper">
+    <div class="bg"></div>
+    <div class="modal-container">
+        <div class="modal-content">
+        <div class="left-part">
+            <h1>Забронировать автомобиль</h1>
+            <div class="row">
+            <input type="text" value="Toyota">
+            <input type="text" value="Camry">
+            </div>
+            <input type="text" value="2.0 AT Стандарт 2020">
+            <div class="row">
+                <input type="text" placeholder="Ваш телефон">
+                <input type="text" placeholder="Ваше имя">
+            </div>
+            <div class="dropdown-wrapper">
+                <img class="arrow" src="img/arrow.png">
+                <input class="dropdown-input" type="text" placeholder="Выбрать подарок">
+                    <ul class="dropdown-menu">
+                        <li>Компенсируем дорогу до автосалона</li>
+                        <li>Быстрое оформление КАСКО и ОСАГО за 15 минут</li>
+                        <li>Скидка 30 000 рублей</li>
+                        <li>Устрановка любого доп. оборудования</li>
+                        <li>Немыслимый бонус по сервису - каждому покупателю ТО-0 и ТО-1 в подарок!</li>
+                        <li>Бонусная карта на сервисное обслуживание вашего автомобиля</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="right-part">
+            <div class="cost">
+                <span>1 615 000 ₽</span>
+                <span class="discount">1 800 000 ₽</span>
+            </div>
+            <img src="./img/car.png" alt="машына">
+            <form class="radio">
+                <input type="radio" id="blue" name="radio" value="blue">
+                <label for="blue" class="blue"></label>
+                <input type="radio" id="red" name="radio" value="red">
+                <label for="red" class="red"></label>
+                <input type="radio" id="light" name="radio" value="light">
+                <label for="light" class="light"></label>
+                <input type="radio" id="gray" name="radio" value="gray">
+                <label for="gray" class="gray"></label>
+                <input type="radio" id="dark-gray" name="radio" value="dark-gray">
+                <label for="dark-gray" class="dark-gray"></label>
+                <input type="radio" id="black" name="radio" value="black">
+                <label for="black" class="black"></label>
+                <input type="radio" id="purple" name="radio" value="purple">
+                <label for="purple" class="purple"></label>
+                <input type="radio" id="another" name="radio" value="another">
+                <label for="another" class="another"></label>
+            </form>
+        </div>
+    </div>
+        <p class="info">Нажимая кнопку “Забронировать авто” Вы даете согласие на обработку своих <span>персональных данных</span></p>
+    </div>
+</div>
+</body>
+</html>
